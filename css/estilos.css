@@ -88,3 +88,73 @@ nav ul li a:hover {
     margin: 5px 0;
   }
 }
+
+/* Nuevos selectores */
+a[href^="#"] {
+  color: green;
+}
+
+ul li:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+/* Nuevas propiedades */
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: blue;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: red;
+}
+
+/* Animaciones */
+@keyframes mover {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100px); }
+}
+
+.caja-animada {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  animation: mover 2s infinite alternate;
+}
+
+/* Transformaciones */
+.caja-transformada {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  transform: rotate(45deg) scale(1.2);
+}
+
+/* Esquinas redondeadas */
+.caja-redondeada {
+  width: 100px;
+  height: 100px;
+  background: pink;
+  border-radius: 15px;
+}
+
+/* Sombra */
+.caja-sombra {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Fuente descargable */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
