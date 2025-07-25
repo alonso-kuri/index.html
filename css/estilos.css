@@ -169,12 +169,4 @@ button:hover, a:hover {
 }
 
 
-* {
-  outline: 1px solid rgba(0,0,0,0.1); /* debug*/
-}
-
-body * {
-  background-color: transparent !important;
-}
-
 
