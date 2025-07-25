@@ -163,9 +163,18 @@ button:hover, a:hover {
 }
 
 .imagen-carrusel-pequeña {
-  width: 200px;
+  width: 400px;
   height: auto;
   margin: 0 auto;
+}
+
+
+* {
+  outline: 1px solid rgba(0,0,0,0.1); /* debug*/
+}
+
+body * {
+  background-color: transparent !important;
 }
 
 
